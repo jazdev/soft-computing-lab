@@ -10,4 +10,4 @@ Author: Jasdev Singh
 
 A simple script that emulates a 3-input AND gate. 
 
-OUTPUT_00.png shows how the error decreases as the number of epochs increases.
+OUTPUT_00.png shows how the error decreases as the number of epochs increase.
