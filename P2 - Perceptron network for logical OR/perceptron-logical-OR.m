@@ -12,9 +12,9 @@ close all;
 
 nnstart %open neural network GUI
 
-x = [0 1 0 1 0 1 0 1; 0 0 1 1 0 0 1 1; 0 0 0 0 1 1 1 1]; % input vector; 3-input AND gate
+x = [0 1 0 1 0 1 0 1; 0 0 1 1 0 0 1 1; 0 0 0 0 1 1 1 1]; % input vector
 
-t = [0 1 1 1 1 1 1 1]; % target vector
+t = [0 1 1 1 1 1 1 1]; % target vector for 3-input OR gate
 
 net = perceptron; 
 
