@@ -1,0 +1,13 @@
+Script to make a Perceptron network for solving logical AND problem
+
+Soft Computing Lab (8th semester)
+
+Date: 10/2/2014
+
+Author: Jasdev Singh
+
+--------------------------------------------------------------------
+
+A simple script that emulates a 3-input OR gate. 
+
+OUTPUT_00.png shows how the error decreases as the number of epochs increase.
