@@ -10,4 +10,17 @@ clc;
 clear all;
 close all;
 
+x = [0 0 1 1; 0 1 0 1];
+
+t = [0 1 1 0];  
+
+net = newff(minmax(x), [10 1], {'logsig' 'logsig'}, 'traingdx');
+
+[net, tr] = train(net, x, t);
+
+outputs = sim(net, x);
+
+errors = t - outputs;
+
+perf = perform(net, outputs, t);
 
